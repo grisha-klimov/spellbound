@@ -1,0 +1,133 @@
+.reg-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 40px;
+  background: url("../images/bg_red.jpg") center / cover no-repeat;
+
+  @media (min-width: 768px) {
+    padding-top: 80px;
+  }
+
+  @media (min-width: 1024px) {
+    padding-top: 260px;
+  }
+}
+
+.reg-form__title {
+  margin-bottom: 30px;
+  padding: 0 20px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.reg-form__form {
+  max-width: 280px;
+  @media (min-width: 375px) {
+    max-width: 335px;
+  }
+}
+
+.reg-form__row, .reg-form__column {
+  margin-bottom: 15px;
+
+  .form-error {
+    margin-top: 5px;
+    padding: 5px;
+    color: #fff;
+    background: red;
+  }
+}
+
+.reg-form__checkbox {
+  .form-error {
+    margin-top: 5px;
+    padding: 5px;
+    color: #fff;
+    background: red;
+  }
+}
+
+.reg-form__label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+.reg-form__input {
+  width: 100%;
+  height: 46px;
+  padding: 0 10px;
+  color: #666666;
+  font-size: 16px;
+  background-color: #ffffff;
+  border: 1px solid #e3e3e3;
+}
+
+.reg-form__columns {
+  display: flex;
+  column-gap: 20px;
+}
+
+.reg-form__column--state {
+  width: 60%;
+}
+
+.reg-form__column--zip {
+  width: 40%;
+}
+
+.reg-form__reg-birth {
+  display: flex;
+  flex-direction: row;
+
+  & select {
+    height: 46px;
+  }
+}
+
+.reg-form__btn {
+  width: 100%;
+  height: 48px;
+  margin-bottom: 100px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: 'LeMondeJournalStd', serif;
+  line-height: 48px;
+  text-align: center;
+  text-transform: uppercase;
+  background-color: #000000;
+  transition: all .3s ease;
+
+  &:hover {
+    transform: scale(1.15);
+  }
+}
+
+.reg-form__select.single {
+  .ts-control {
+    align-items: center;
+    height: 46px;
+    padding: 0 10px;
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #e3e3e3;
+    border-radius: 0;
+    box-shadow: none;
+
+    input, .item {
+      color: #666666;
+      font-size: 16px;
+    }
+  }
+
+  .ts-dropdown .option {
+    color: #666666;
+    font-size: 16px;
+  }
+}

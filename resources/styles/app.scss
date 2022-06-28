@@ -1,0 +1,22 @@
+// Vendor
+@import '~modern-normalize/modern-normalize';
+@import '~/vanillajs-datepicker/sass/datepicker';
+@import '~/vanillajs-datepicker/sass/datepicker-bulma';
+@import '~/tom-select/dist/scss/tom-select.default';
+
+// Settings
+//@import 'utils/fonts';
+@import 'utils/variables';
+@import 'utils/colors';
+@import 'utils/breakpoints';
+@import 'utils/mixins';
+@import 'utils/global';
+@import 'utils/wrapper';
+
+// Common
+@import 'blocks/header';
+@import 'blocks/age-gate';
+@import 'blocks/reg-form';
+@import 'blocks/checkboxes-itm';
+@import 'blocks/thank-you';
+@import 'blocks/footer';

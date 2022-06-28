@@ -1,0 +1,37 @@
+.thank-you__title {
+  margin-bottom: 30px;
+  padding: 0 20px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  text-align: center;
+}
+
+.thank-you__sharing {
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.thank-you__sharing-text  {
+  color: #ffffff;
+
+  a {
+    color: #ffffff;
+    text-decoration: underline;
+  }
+}
+
+.thank-you__sharing-items {
+  display: flex;
+  justify-content: center;
+  margin: 27px 0 60px;
+}
+.thank-you__sharing-item {
+  margin: 0 12.5px;
+  transition: all .3s ease;
+
+  &:hover {
+    transform: scale(1.15);
+  }
+}

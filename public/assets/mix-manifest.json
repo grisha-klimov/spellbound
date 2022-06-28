@@ -1,0 +1,21 @@
+{
+    "/scripts/app.js": "/scripts/app.js",
+    "/scripts/datepicker.js": "/scripts/datepicker.js",
+    "/scripts/select.js": "/scripts/select.js",
+    "/styles/app.css": "/styles/app.css",
+    "/images/bg_age_gare.png": "/images/bg_age_gare.png",
+    "/images/bg_header_desktop.png": "/images/bg_header_desktop.png",
+    "/images/bg_header_mobile.png": "/images/bg_header_mobile.png",
+    "/images/bg_red.jpg": "/images/bg_red.jpg",
+    "/images/bottles.png": "/images/bottles.png",
+    "/images/logo_header.png": "/images/logo_header.png",
+    "/images/logo_rvroadtrip.png": "/images/logo_rvroadtrip.png",
+    "/images/logo_spellbound.png": "/images/logo_spellbound.png",
+    "/images/red.svg": "/images/red.svg",
+    "/fonts/HelveticaNeue-Bold.woff": "/fonts/HelveticaNeue-Bold.woff",
+    "/fonts/HelveticaNeue-CondensedRegular.woff": "/fonts/HelveticaNeue-CondensedRegular.woff",
+    "/fonts/Typofonderie-LeMondeJournalStd-Demi.otf": "/fonts/Typofonderie-LeMondeJournalStd-Demi.otf",
+    "/fonts/Typofonderie-LeMondeJournalStd-DemiItalic.otf": "/fonts/Typofonderie-LeMondeJournalStd-DemiItalic.otf",
+    "/scripts/phone.js": "/scripts/phone.js",
+    "/scripts/scrollTo.js": "/scripts/scrollTo.js"
+}

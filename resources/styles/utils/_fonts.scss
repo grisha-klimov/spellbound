@@ -1,0 +1,31 @@
+@font-face {
+  font-weight: 600;
+  font-family: 'LeMondeJournalStd';
+  font-style: normal;
+  font-display: swap;
+  src: url('../fonts/Typofonderie-LeMondeJournalStd-Demi.otf') format('opentype');
+}
+
+@font-face {
+  font-weight: 600;
+  font-family: 'LeMondeJournalStd';
+  font-style: italic;
+  font-display: swap;
+  src: url('../fonts/Typofonderie-LeMondeJournalStd-DemiItalic.otf') format('opentype');
+}
+
+@font-face {
+  font-weight: normal;
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-display: swap;
+  src: url('../fonts/HelveticaNeue-CondensedRegular.woff') format('woff');
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: 'Helvetica Neue';
+  font-style: normal;
+  font-display: swap;
+  src: url('../fonts/HelveticaNeue-Bold.woff');
+}
