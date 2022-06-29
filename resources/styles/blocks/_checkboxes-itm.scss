@@ -33,6 +33,22 @@
   cursor: pointer;
   user-select: none;
 
+  &:hover {
+    .checkboxes-itm__svg {
+      svg {
+        rect {
+          stroke-dashoffset: 0;
+        }
+      }
+    }
+  }
+
+  &.parsley-error {
+    .checkboxes-itm__svg {
+      border: 1px solid #f00;
+    }
+  }
+
   .checkboxes-itm__input:checked {
     & + .checkboxes-itm__svg {
       background-color: #fff;
@@ -53,22 +69,7 @@
       }
     }
   }
-  &:hover {
 
-    .checkboxes-itm__svg {
-      svg {
-        rect {
-          stroke-dashoffset: 0;
-        }
-      }
-    }
-  }
-
-  &.parsley-error {
-    .checkboxes-itm__svg {
-      border: 1px solid #f00;
-    }
-  }
   .checkboxes-itm__svg {
     display: flex;
     flex: 0 0 20px;
